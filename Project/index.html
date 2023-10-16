@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+<body>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.toggle-btn {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    /* outline: none; */
+}
+
+
+/* Common Css */
+
+fieldset {
+    width: 99%;
+    height: 156vh;
+    margin: 10px;
+    
+}
+
+.search-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+.list-toggle {
+    display: flex;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.list-toggle li {
+    margin-right: 5px;
+}
+
+/* Main Section */
+
+/* Main Grid View */
+main {
+    height: 450px;
+    display: grid;
+    scroll-behavior: smooth;
+    padding: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+} 
+main .card {
+    width: 280px;
+    height: 180px;
+    border: 2px solid #0d0dd0;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+    
+}
+
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+}
+
+.card-name {
+    margin-bottom: 5px;
+}
+
+.card-content {
+    white-space: nowrap;
+    width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Card Section */
+
+/* Card Table View */
+
+.card-table {
+    display: flex;
+    width: 100%;
+}
+
+/* Card Table View */
+    </style>
+    <fieldset>
+        <div class="search-section">
+          <div>
+            <input type="search" id="search-input" placeholder="Search" />
+          </div>
+          <div>
+            <ul class="list-toggle">
+              <li><a href="index1.html"><button class="toggle-btn" id="gridview">Grid View</button></a></li>
+              <li>|</li>
+              <li><button class="toggle-btn" id="tableview">Table View</button></li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- Header Section Ends -->
+    
+        <main>
+          <div class="card">
+            <img src="assets/I-phone.jpg" alt="" />
+            <h4 class="card-name">I-phone 1</h4>
+            <p class="card-content">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+              amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+              ratione dolores consequatur perspiciatis omnis itaque adipisci
+              nobis. Similique!
+            </p>
+          </div>
+    
+          <div class="card">
+            <img src="assets/I-phone.jpg" alt="" />
+            <h4 class="card-name">pro max</h4>
+            <p class="card-content">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+              amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+              ratione dolores consequatur perspiciatis omnis itaque adipisci
+              nobis. Similique!
+            </p>
+          </div>
+    
+          <div class="card">
+            <img src="assets/I-phone.jpg" alt="" />
+            <h4 class="card-name">pro</h4>
+            <p class="card-content">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+              amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+              ratione dolores consequatur perspiciatis omnis itaque adipisci
+              nobis. Similique!
+            </p>
+          </div>
+    
+          <div class="card">
+            <img src="assets/I-phone.jpg" alt="" />
+            <h4 class="card-name">12 i phone</h4>
+            <p class="card-content">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+              amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+              ratione dolores consequatur perspiciatis omnis itaque adipisci
+              nobis. Similique!
+            </p>
+            </div>
+            <div class="card">
+              <img src="assets/I-phone.jpg" alt="" />
+              <h4 class="card-name">pro</h4>
+              <p class="card-content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                ratione dolores consequatur perspiciatis omnis itaque adipisci
+                nobis. Similique!
+              </p>
+            </div>
+      
+            <div class="card">
+              <img src="assets/I-phone.jpg" alt="" />
+              <h4 class="card-name">12 i phone</h4>
+              <p class="card-content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                ratione dolores consequatur perspiciatis omnis itaque adipisci
+                nobis. Similique!
+              </p>
+              </div>
+              <div class="card">
+                <img src="assets/I-phone.jpg" alt="" />
+                <h4 class="card-name">pro</h4>
+                <p class="card-content">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                  amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                  ratione dolores consequatur perspiciatis omnis itaque adipisci
+                  nobis. Similique!
+                </p>
+              </div>
+        
+              <div class="card">
+                <img src="assets/I-phone.jpg" alt="" />
+                <h4 class="card-name">12 i phone</h4>
+                <p class="card-content">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                  amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                  ratione dolores consequatur perspiciatis omnis itaque adipisci
+                  nobis. Similique!
+                </p>
+              </div>
+                <div class="card">
+                  <img src="assets/I-phone.jpg" alt="" />
+                  <h4 class="card-name">pro</h4>
+                  <p class="card-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                    amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                    ratione dolores consequatur perspiciatis omnis itaque adipisci
+                    nobis. Similique!
+                  </p>
+                </div>
+          
+                <div class="card">
+                  <img src="assets/I-phone.jpg" alt="" />
+                  <h4 class="card-name">12 i phone</h4>
+                  <p class="card-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                    amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                    ratione dolores consequatur perspiciatis omnis itaque adipisci
+                    nobis. Similique!
+                  </p>
+                  </div>
+                  <div class="card">
+                    <img src="assets/I-phone.jpg" alt="" />
+                    <h4 class="card-name">pro</h4>
+                    <p class="card-content">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                      amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                      ratione dolores consequatur perspiciatis omnis itaque adipisci
+                      nobis. Similique!
+                    </p>
+                  </div>
+            
+                  <div class="card">
+                    <img src="assets/I-phone.jpg" alt="" />
+                    <h4 class="card-name">12 i phone</h4>
+                    <p class="card-content">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                      amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                      ratione dolores consequatur perspiciatis omnis itaque adipisci
+                      nobis. Similique!
+                    </p>
+                    </div>
+                    <div class="card">
+                      <img src="assets/I-phone.jpg" alt="" />
+                      <h4 class="card-name">12 i phone</h4>
+                      <p class="card-content">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                        amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                        ratione dolores consequatur perspiciatis omnis itaque adipisci
+                        nobis. Similique!
+                      </p>
+                      </div>
+                      <div class="card">
+                        <img src="assets/I-phone.jpg" alt="" />
+                        <h4 class="card-name">12 i phone</h4>
+                        <p class="card-content">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                          amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                          ratione dolores consequatur perspiciatis omnis itaque adipisci
+                          nobis. Similique!
+                        </p>
+                        </div>
+                        <div class="card">
+                          <img src="assets/I-phone.jpg" alt="" />
+                          <h4 class="card-name">12 i phone</h4>
+                          <p class="card-content">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                            amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                            ratione dolores consequatur perspiciatis omnis itaque adipisci
+                            nobis. Similique!
+                          </p>
+                          </div>
+                          <div class="card">
+                            <img src="assets/I-phone.jpg" alt="" />
+                            <h4 class="card-name">12 i phone</h4>
+                            <p class="card-content">
+                              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sequi
+                              amet a ad maiores debitis non, tempore alias molestiae quaerat sunt
+                              ratione dolores consequatur perspiciatis omnis itaque adipisci
+                              nobis. Similique!
+                            </p>
+                            </div>
+          </div>  
+        </main>
+      </fieldset>
+      <script>
+        document.querySelector("#search-input").addEventListener("input", filterList);
+
+function filterList() {
+  const searchInput = document.querySelector("#search-input");
+  const filter = searchInput.value.toLowerCase();
+  const listItems = document.querySelectorAll(".card-name");
+
+  listItems.forEach((item) => {
+    let text = item.textContent.toLowerCase();
+    if (text.includes(filter)) {
+      item.parentElement.style.display = "";
+    } else {
+      item.parentElement.style.display = "none";
+    }
+  });
+}
+const content = document.getElementById("content");
+const loading = document.getElementById("loading");
+const loadMoreBtn = document.getElementById("loadMoreBtn");
+
+let page = 1;
+let isLoading = false;
+let itemsPerPage = 5; 
+
+function loadMoreItems() {
+    if (isLoading) return;
+    isLoading = true;
+
+    loading.style.display = "block";
+
+    setTimeout(() => {
+        for (let i = 1; i <= itemsPerPage; i++) {
+            const newItem = document.createElement("div");
+            newItem.className = "card";
+            newItem.innerHTML = `
+                <img src="assets/I-phone.jpg" alt="" />
+                <h4 class="card-name">New Item ${page * itemsPerPage + i}</h4>
+                <p class="card-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </p>
+            `;
+            content.appendChild(newItem);
+        }
+        page++;
+        isLoading = false;
+        loading.style.display = "none";
+    }, 1000); 
+}
+
+loadMoreBtn.addEventListener("click", loadMoreItems);
+
+      </script> 
+</body>
+</html>
+
